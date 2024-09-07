@@ -54,16 +54,17 @@
 .skills h1 {
     font-size: 3rem;
     padding-top: 1rem;
-    padding-left: 10rem;
+    padding-left: 1rem;
 }
 .skill {
     gap: 10px;
-    padding-left: 10rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
 }
 .language, .web {
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 0.25rem;
 }
 }
