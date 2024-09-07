@@ -1,0 +1,167 @@
+.projects h1 {
+    font-size: 6rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+.project {
+    gap: 8rem;
+    padding-left: 9rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.project1 {
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: 3px solid gray;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+.project1 h3 {
+    padding-bottom: 1rem;
+}
+.project1 a{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    background-color: gainsboro;
+}
+.project1 a:hover{
+    background-color: gray;
+}
+.a {
+    padding-left: 6rem;
+    display: flex;
+    gap: 1rem;
+}
+.project2 {
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: 3px solid gray;
+}
+.project2 h3 {
+    padding-bottom: 1rem;
+}
+.project2 a{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    background-color: gainsboro;
+}
+.project2 a:hover{
+    background-color: gray;
+}
+.img {
+   border-radius: 12px;
+}
+.projectt{
+    padding-left: 28rem;
+    padding-top: 2rem;
+    display: flex;
+    text-align: center;
+}
+.project3 {
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: 3px solid gray; 
+    padding-bottom: 1.5rem;
+}
+.project3 h3 {
+    padding-bottom: 1rem;
+}
+.A {
+    padding-left: 8rem;
+    display: flex;
+    gap: 1rem; 
+}
+.project3 a{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    background-color: gainsboro;
+}
+.project3 a:hover{
+    background-color: gray;
+}
+@media (max-width: 768px) {
+.projects{
+    padding-left: 5rem;
+}
+.projects h1 {
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+.project {
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    flex-direction: column; 
+}
+.project1, .project2, .project3 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem 0; 
+}
+.project1 a, .project2 a, .project3 a {
+    padding: 0.5rem 1.5rem;
+}
+.a, .A {
+    padding-left: 15rem;
+}
+.projectt {
+      padding-left: 2rem;
+      padding-top: 1rem;
+}
+}
+@media (max-width: 480px) {
+.projects{
+    padding-left: 1rem;
+}
+.projects h1 {
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+.project {
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-right: 5rem;
+}
+.project1, .project2, .project3 {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+.project1 a, .project2 a, .project3 a {
+    padding: 0.5rem 1rem;
+}
+.project2 h3{
+    text-align: center;
+}
+.a, .A{
+    padding-left: 10rem;
+    gap: 0.5rem;
+}
+.projectt {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+}
+
