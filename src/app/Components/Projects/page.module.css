@@ -135,6 +135,42 @@
 }
 }
 @media (max-width: 480px) {
+.projects{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.projects h1 {
+    font-size: 4rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+.project {
+    gap: 1rem;
+    padding-left: 2rem;
+    margin-right: 5rem;
+    padding-top: 1rem;
+    flex-direction: column; 
+}
+.project1, .project2, .project3 {
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem 0; 
+}
+.project1 a, .project2 a, .project3 a {
+    padding: 0.5rem 1.5rem;
+}
+.a, .A {
+    padding-left: 15rem;
+}
+.projectt {
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    flex-direction: column; 
+}
+}
+@media (max-width: 480px) {
 .projects h1 {
     font-size: 3rem;
     padding-top: 1rem;
@@ -143,12 +179,12 @@
 .project {
     gap: 1rem;
     padding-left: 1px;
-    padding-right: 2rem;
+    padding-right: 3rem;
     padding-top: 1rem;
     flex-direction: row; 
 }
 .img {
-    width: 250px;
+    width: 230px;
 }
 .project1, .project2, .project3 {
     font-size: 1rem;
@@ -162,20 +198,21 @@
     text-align: center;
 }
 .a{
-    padding-left: 3.5rem;
+    padding-left: 6rem;
     gap: 0.5rem;
 }
 .A {
     padding-left: 6rem;
 }
 .imag {
-    width: 250px;
+    width: 220px;
 }
 .projectt {
     gap: 1rem;
     padding-left: 1px;
-    padding-right: 2rem;
+    padding-right: 3rem;
     padding-top: 1rem;
     flex-direction: row; 
 }
 }
+
