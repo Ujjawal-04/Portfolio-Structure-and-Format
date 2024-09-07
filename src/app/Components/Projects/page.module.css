@@ -101,7 +101,8 @@
 }
 @media (max-width: 768px) {
 .projects{
-    padding-left: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .projects h1 {
     font-size: 4rem;
@@ -126,8 +127,11 @@
     padding-left: 15rem;
 }
 .projectt {
-      padding-left: 2rem;
-      padding-top: 1rem;
+      gap: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    flex-direction: column; 
 }
 }
 @media (max-width: 480px) {
