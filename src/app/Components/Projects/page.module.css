@@ -135,18 +135,20 @@
 }
 }
 @media (max-width: 480px) {
-.projects{
-    padding-left: 1rem;
-}
 .projects h1 {
     font-size: 3rem;
     padding-top: 1rem;
-    padding-left: 5rem;
+    padding-left: 1rem;
 }
 .project {
     gap: 1rem;
+    padding-left: 1px;
+    padding-right: 2rem;
     padding-top: 1rem;
-    padding-right: 5rem;
+    flex-direction: row; 
+}
+.img {
+    width: 250px;
 }
 .project1, .project2, .project3 {
     font-size: 1rem;
@@ -159,13 +161,21 @@
 .project2 h3{
     text-align: center;
 }
-.a, .A{
-    padding-left: 10rem;
+.a{
+    padding-left: 3.5rem;
     gap: 0.5rem;
 }
+.A {
+    padding-left: 6rem;
+}
+.imag {
+    width: 250px;
+}
 .projectt {
-    padding-left: 2rem;
+    gap: 1rem;
+    padding-left: 1px;
+    padding-right: 2rem;
     padding-top: 1rem;
+    flex-direction: row; 
 }
 }
-
