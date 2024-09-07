@@ -37,8 +37,9 @@
     padding-top: 1rem;
 }
 .skill {
+     padding-right: 10rem;
     gap: 20px;
-    padding-left: 2rem;
+    padding-left: 8rem;
     flex-direction: column;
 }
 .language, .web {
