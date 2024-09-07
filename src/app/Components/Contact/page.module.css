@@ -35,9 +35,14 @@
 .break {
     padding-top: 12rem;
 }
+.forms {
+    margin-bottom: 70px;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 80%;
+}
 .form{
     padding-left: 15px;
-    border: 2px solid black;
     margin-bottom: 70px;
     border-radius: 15px;
     width: 60%;
@@ -50,7 +55,7 @@
     padding-left: 10px;
 }
 .form input{
-    width: 90%;
+    width: 100%;
     border-radius: 7px;
     border: 0;
     height: 60px;
@@ -66,7 +71,7 @@
     top: 20px;
 }
 .form textarea{
-    width: 90%;
+    width: 100%;
     border-radius: 7px;
     border: 0;
     height: 80px;
@@ -91,8 +96,8 @@
     font-family: Poppins;
     background-color: gray;
     border: 0px;
-    margin-right: 20px;
-    margin-bottom: 5px;
+    margin-right: 1px;
+    margin-bottom: 1px;
     border-radius: 8px;
     float: right;
 }
@@ -223,7 +228,7 @@
     padding-right: 1rem;
 }
 .form {
-    width: 85%;
+    width: 80%;
 }
 .form p {
     font-size: 1.2rem;
@@ -260,6 +265,6 @@
     padding-left: 0;
 }
 .footer{
-   font-size: 1rem;
+   font-size: 1.1rem;
 }
 }
