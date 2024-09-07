@@ -16,6 +16,7 @@ const Contact = () => {
         <div className={styles.break}>
           <h2>or</h2>
         </div>
+        <div className={styles.forms}>
      <div className={styles.form}>
        <form method="POST">
        <input type="hidden" name="access_key" value="e56d223e-f4dd-4827-a563-65e31c01753c"></input>
@@ -27,6 +28,7 @@ const Contact = () => {
           <textarea placeholder='Enter Your Message' style={{height:'50px'}} name="message"></textarea>
           <button type="submit" className={styles.submit}>SUBMIT</button>
        </form>
+      </div>
       </div>
       </div>
      <div className={styles.social}>Also You Can Connect With Me On:-</div>
