@@ -7,7 +7,7 @@ const About = () => {
     <h1>About Me</h1>
     <div className={styles.info}>
     <div className={styles.img}>
-      <img src="IMG-20200513-WA0051.jpg" alt="this is a picture" height="350px" width="320px" className={styles.imag}/>
+      <img src="" alt="this is a picture" height="350px" width="320px" className={styles.imag}/>
     </div>
     <div className={styles.contents}>
     <div className={styles.content}>
@@ -19,11 +19,11 @@ const About = () => {
     <div className={styles.content2}>
       Education :-
       <br />
-       Pursuing B-Tech
+       Pursuing your [cousrse]
     </div>
     </div>
     <div className={styles.content3}>
-    <p>I’m Ujjawal, a passionate web developer. With experience in crafting dynamic and responsive websites, I specialize in creating user-friendly web solutions that drive engagement and performance.</p>
+    <p>I’m [name], a passionate [your skill]. With experience in crafting dynamic and responsive websites, I specialize in creating user-friendly web solutions that drive engagement and performance.</p>
     </div>
     </div>
     </div>
