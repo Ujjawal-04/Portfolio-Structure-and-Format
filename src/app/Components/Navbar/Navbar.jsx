@@ -32,11 +32,11 @@ const Navbar = () => {
     </div>
     </div>
     <div className={styles.main}>
-        <img src="IMG-20200513-WA0051.jpg" alt="this is a picture" height="350px" width="350px" className={styles.img}/>
+        <img src="" alt="this is a picture" height="350px" width="350px" className={styles.img}/>
         <div className={styles.desc}>
         <h5>Hello I'm </h5>
         <h1>[your name]</h1>
-        <h3>Frontend Web Developer</h3>
+        <h3>[your specialization]</h3>
         <div className={styles.file}>
         <a href="" download="resume.pdf">Download CV</a>
         <a href="#Contact">Contact Me</a>
