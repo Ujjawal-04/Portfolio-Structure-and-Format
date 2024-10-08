@@ -35,15 +35,15 @@ const Navbar = () => {
         <img src="IMG-20200513-WA0051.jpg" alt="this is a picture" height="350px" width="350px" className={styles.img}/>
         <div className={styles.desc}>
         <h5>Hello I'm </h5>
-        <h1>Ujjawal</h1>
+        <h1>[your name]</h1>
         <h3>Frontend Web Developer</h3>
         <div className={styles.file}>
-        <a href="resume.pdf" download="resume.pdf">Download CV</a>
+        <a href="" download="resume.pdf">Download CV</a>
         <a href="#Contact">Contact Me</a>
         </div>
         <div className={styles.account}>
-          <a href="https://github.com/Ujjawal-04" target='_blank'><img src="github.png" alt="github profile" height="50px" width="50px"/></a>
-          <a href="https://www.linkedin.com/in/ujjawal-5b86a8291" target='_blank'><img src="linkedin.png" alt="Linkedin profile" height="50px" width="50px"/></a>
+          <a href="" target='_blank'><img src="github.png" alt="github profile" height="50px" width="50px"/></a>
+          <a href="" target='_blank'><img src="linkedin.png" alt="Linkedin profile" height="50px" width="50px"/></a>
         </div>
         </div>
     </div>
