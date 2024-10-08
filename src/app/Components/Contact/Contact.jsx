@@ -33,8 +33,8 @@ const Contact = () => {
       </div>
      <div className={styles.social}>Also You Can Connect With Me On:-</div>
      <div className={styles.handles}>  
-             <a href="https://www.linkedin.com/in/ujjawal-5b86a8291" target='_blank'><img src="linkedin.png" alt="Linkedin profile" height="50px" width="50px"/></a>    
-              <a href="https://www.instagram.com/_ujjawal_04/?igsh=eGw2emE0MXo3N3Ex" target='_blank'><img src="instagram.png" alt="picture" height="50px" width="50px"/></a>
+             <a href="" target='_blank'><img src="linkedin.png" alt="Linkedin profile" height="50px" width="50px"/></a>    
+              <a href="" target='_blank'><img src="instagram.png" alt="picture" height="50px" width="50px"/></a>
             <a href="https://www.whatsapp.com" target='_blank'><img src="whatsapp.png" alt="picture" height="50px" width="50px"/></a>
             </div>
     <div className={styles.navs}>
