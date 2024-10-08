@@ -23,7 +23,7 @@ const About = () => {
     </div>
     </div>
     <div className={styles.content3}>
-    <p>I’m [name], a passionate [your skill]. With experience in crafting dynamic and responsive websites, I specialize in creating user-friendly web solutions that drive engagement and performance.</p>
+    <p>I’m [name], a passionate [your skill]. With experience in crafting dynamic and responsive [skill], I specialize in creating user-friendly solutions that drive engagement and performance.</p>
     </div>
     </div>
     </div>
