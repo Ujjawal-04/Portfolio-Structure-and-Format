@@ -11,7 +11,7 @@ const Skills = () => {
 [languages]
     </div>
     <div className={styles.web}>
-    <h2>Web Development :- </h2>
+    <h2>skills :- </h2>
      [skills]
     </div>
     </div>
